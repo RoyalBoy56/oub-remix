@@ -133,17 +133,18 @@ async def amireallyalive(alive):
     await alive.edit(
                      
                       
-                     f"`🤖 STATUS: Working Sexy AF ✅` \n"
-                     f"Telethon version:{version.__version__} \n"
-                     f"Python version🐍:{python_version()} \n"
-                     f"`Bot Version🤘: Remix 2.0` \n"
-                     f"------------------------------------ \n"
+                     "E.D.I.T.H. is online. \n"
+                     " \n"
+                     f"Telethon version: {version.__version__} \n"
+                     f"Python: {python_version()} \n"
+                     " \n"
+                     f"Owner: ℜøℽⱥl ẞøℽ ꧁ やℜiℽⱥήshu꧂ \n"
+                     " \n"
+                     f"ℜøℽⱥl'z Bot: E.D.I.T.H. \n"
+                     f"Even Dead, I'm The Hero! 😎 "
+                     "`")    
                      
-                     f"User 👨‍🚀: {DEFAULTUSER} \n"
-                     f"Maintainer 🏄‍♂️: @heyworld"
-                     )
-                         
-
+                 
 
 
 @register(outgoing=True, pattern="^.aliveu")
