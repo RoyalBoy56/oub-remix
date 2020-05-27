@@ -131,8 +131,6 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     await alive.edit(
-                     
-                      
                      "E.D.I.T.H. is online. \n"
                      " \n"
                      f"Telethon version: {version.__version__} \n"
@@ -142,11 +140,10 @@ async def amireallyalive(alive):
                      " \n"
                      f"ℜøℽⱥl'z Bot: E.D.I.T.H. \n"
                      f"Even Dead, I'm The Hero! 😎 "
-                     "`")    
-                     
-                 
-
-
+                     "`")
+    
+    
+    
 @register(outgoing=True, pattern="^.aliveu")
 async def amireallyaliveuser(username):
     """ For .aliveu command, change the username in the .alive command. """
